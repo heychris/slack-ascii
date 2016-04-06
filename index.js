@@ -9,16 +9,44 @@ var app = express();
 var slack = new Slack(process.env.SLACK_HOOK_URL);
 
 var asciiEmoticons = {
+    "arg": "(╯°Д°）╯︵/(.□ . \\)",
+    "angry": "(ノಠ益ಠ)ノ",
+    "armsup": "(╯°□°）╯",
     "bear": "ʕ •ᴥ•ʔ",
-    "diretide": "༼ つ ◕_◕ ༽つ GIVE DIRETIDE",
-    "do it": "(☞ﾟヮﾟ)☞",
+    "content": "(´ー`)",
+    "crying": "ಥ_ಥ",
+    "dance": "ᕕ( ᐛ )ᕗ",
+    "die": "(✖╭╮✖)",
+    "diretide": "༼ つ ◕_◕ ༽つ",
+    "do it": "(☞ﾟ∀ﾟ)☞",
+    "disapprove": "ಠ_ಠ",
     "eyes": "ಠ_ಠ",
+    "fitch": "( °┏＿┓°)"  ,
     "flip": "(╯°□°）╯︵ ┻━┻",
+    "fists": "t(-.-t)",
+    "frown": "ಠ╭╮ಠ",
     "lenny": "( ͡° ͜ʖ ͡°)",
+    "lolhard": "。゜（゜＾▽＾゜）゜。",
+    "ooh": "（◎ ｡ ◎）ooOO" ,
+    "paget": "╰(´・｀)ﾉ",
+    "satuan": "↶（｀∇´）"   ,
+    "sayhello": " ̿ ̿'̿'\̵͇̿̿\\з=(•益•)=ε/̵͇̿̿/,'̿'̿ ",
     "shades": "(⌐■_■)",
+    "smile": "◕ ◡ ◕",
     "shrug": "¯\\_(ツ)_/¯",
+    "slap": "Slaps you with a large Trout! `·.¸¸ ><((((º>.·",
+    "sleep": "（= ‸ =）",
+    "sad": "◕︵◕",
+    "soon": "◉‿◉",
+    "stare": "(；一_一)",
     "unflip": "┬──┬◡ﾉ(° -°ﾉ)",
+    "win": "٩(^ᴗ^)۶",
+    "whatever": "ヽ( ´¬`)ノ",
+    "want": "(っ◕‿◕)っ",
+    "reallywant": "(づ｡◕‿‿◕｡)づ",
     "y u no": "ლ(ಠ益ಠლ)"
+    "yosh": "(๑•̀ㅂ•́)و",
+    "zoid": "(V)(•,,,•)(V) woo woo woop"
 };
 
 var helpResponseMessage = '';

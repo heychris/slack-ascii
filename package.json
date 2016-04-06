@@ -2,10 +2,10 @@
   "name": "slack-ascii",
   "version": "1.0.0",
   "description": "Custom ASCII emoticons for Slack",
-  "author": "Shay Kalyan <shaykalyan@outlook.com>",
+  "author": "Chris Wilson <hello@iamchriswilson.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xShay/slack-ascii.git"
+    "url": "https://github.com/heychris/slack-ascii.git"
   },
   "main": "index.js",
   "scripts": {
